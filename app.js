@@ -3,13 +3,13 @@ import { getDatabase, ref, push, onChildAdded } from "https://www.gstatic.com/fi
 
 /* config */
 const firebaseConfig = {
-apiKey:"PUT",
-authDomain:"PUT",
-databaseURL:"PUT",
-projectId:"PUT",
-storageBucket:"PUT",
-messagingSenderId:"PUT",
-appId:"PUT"
+apiKey:"AIzaSyAGW6nPNTN8PEm0oebfeYoRsyiYPCP2pas",
+authDomain:"hirafi-444a9.firebaseapp.com",
+databaseURL:"https://hirafi-444a9-default-rtdb.firebaseio.com",
+projectId:"hirafi-444a9",
+storageBucket:"hirafi-444a9.firebasestorage.app",
+messagingSenderId:"627072915701",
+appId:"1:627072915701:web:b41f6c59fcb4b4e5178dbc"
 };
 
 const app = initializeApp(firebaseConfig);
