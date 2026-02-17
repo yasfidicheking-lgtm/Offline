@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+<meta charset="UTF-8">
+<title>Hirafi</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+<h1>منصة الحرفيين</h1>
+<input type="text" id="search" placeholder="ابحث عن حرفة..." onkeyup="filterCards()">
+</header>
+
+<section id="cards" class="cards"></section>
+
+<!-- اختيار الحساب -->
+<div id="loginBox" class="login">
+<h2>اختر نوع الحساب</h2>
+<button onclick="chooseType('user')">مستخدم</button>
+<button onclick="chooseType('worker')">حرفي</button>
+</div>
+
+<!-- الشات -->
+<div id="chatBox" class="chat hidden">
+<div class="chat-header">
+<span id="chatName"></span>
+<button onclick="closeChat()">X</button>
+</div>
+
+<div id="messages" class="messages"></div>
+
+<div class="send">
+<input id="msg">
+<button onclick="sendMsg()">إرسال</button>
+</div>
+</div>
+
+<script type="module" src="app.js"></script>
+</body>
+</html>
